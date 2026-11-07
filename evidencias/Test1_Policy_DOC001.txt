@@ -1,0 +1,14 @@
+INPUT (ID): DOC001 - Corporate Password Policy
+================================================================================
+Top-5 recommendations
+--------------------------------------------------------------------------------
+#  ID      Score    Category           Title
+1  DOC022  0.1930   FAQ                FAQ: How do I reset my password?
+2  DOC016  0.1876   Support/Incidents  Incident: Phishing Attempt Reported by Employees
+3  DOC025  0.1519   FAQ                FAQ: What should I do if I receive a suspicious email?
+4  DOC005  0.1453   Policy/Process     Vacation Request Procedure
+5  DOC027  0.1348   Meeting            Minutes: Quarterly Information Security Review
+================================================================================
+
+COMMENT:
+The seed belongs to Policy/Process (password policy). The top results are coherent: DOC022 (FAQ on resetting a password) shares the terms “password”, “reset”, and “policy”; DOC016 (phishing incident) and DOC025 (FAQ on suspicious emails) deal with credential theft, a closely related security topic; and DOC027 (security review minutes) mentions updating the password policy. The weakest result is DOC005 (vacation request procedure, rank 4), which matches only generic process words such as “days” and “employees”. This shows a limitation of keyword-based similarity.

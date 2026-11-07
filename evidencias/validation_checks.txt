@@ -1,0 +1,7 @@
+INPUT (ID): DOC999
+Error: "The identifier 'DOC999' does not exist in the corpus. A valid example is DOC001."
+INPUT (text): ""
+Error: The query is empty.
+INPUT (text): "zzzz qqqq"
+Error: None of the query terms appear in the vocabulary of the corpus.
+Error: The corpus file was not found: nope.csv

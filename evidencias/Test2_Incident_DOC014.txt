@@ -1,0 +1,14 @@
+INPUT (ID): DOC014 - Incident: VPN Connection Failure for Remote Workers
+================================================================================
+Top-5 recommendations
+--------------------------------------------------------------------------------
+#  ID      Score    Category           Title
+1  DOC009  0.3236   Policy/Process     Remote Work and VPN Access Policy
+2  DOC026  0.1445   FAQ                FAQ: How do I connect to the network from home?
+3  DOC013  0.1214   Support/Incidents  Ticket: User Locked Out Due to Expired Password
+4  DOC020  0.1171   Support/Incidents  Incident: Network Connectivity Loss at the North Branch
+5  DOC016  0.0964   Support/Incidents  Incident: Phishing Attempt Reported by Employees
+================================================================================
+
+COMMENT:
+The seed belongs to Support/Incidents (VPN failure for remote workers). The first two results are very relevant: DOC009 (remote work and VPN policy, 0.32) and DOC026 (FAQ on connecting from home) share the terms VPN, remote, and connect, so the analyst receives both the governing policy and the end-user guide. DOC013 (locked account) and DOC020 (network connectivity loss) are related access incidents, which makes them reasonable similar cases. DOC016 (phishing, 0.10) is the weakest result and appears only through generic terms such as “users” and “access”.

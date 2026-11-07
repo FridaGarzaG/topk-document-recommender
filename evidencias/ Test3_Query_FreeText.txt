@@ -1,0 +1,14 @@
+INPUT (text): "I can't log in because I forgot my password"
+================================================================================
+Top-5 recommendations
+--------------------------------------------------------------------------------
+#  ID      Score    Category           Title
+1  DOC022  0.3048   FAQ                FAQ: How do I reset my password?
+2  DOC013  0.2327   Support/Incidents  Ticket: User Locked Out Due to Expired Password
+3  DOC001  0.1491   Policy/Process     Corporate Password Policy
+4  DOC026  0.1122   FAQ                FAQ: How do I connect to the network from home?
+5  DOC016  0.0659   Support/Incidents  Incident: Phishing Attempt Reported by Employees
+================================================================================
+
+COMMENT:
+The input is a free-text query. DOC022 (FAQ: how do I reset my password, 0.30) ranks first, followed by DOC013 (expired password ticket, 0.23) and DOC001 (password policy). This combination of self-service guide, solved case, and policy is coherent and useful. Ranks 4 and 5 (DOC026 and DOC016) are weak, with scores below 0.12, because “log in” has no semantic link with “connect” or “access” in TF-IDF. Synonyms such as “sign in” would not be recognized.
