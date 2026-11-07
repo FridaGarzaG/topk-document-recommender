@@ -5,7 +5,7 @@ Generate the top-5 most similar documents to a seed document (by ID) or to a fre
 
 ## File structure
 ```
-recomendador_topk/
+topk-document-recommender/
 ├── recommender.ipynb
 ├── corpus.csv
 ├── requirements.txt
